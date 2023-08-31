@@ -16,6 +16,11 @@ def about():
 def foo():
     return render_template('routine.html')
 
+
+@app.route('/modify')
+def modify():
+    return render_template('modify.html')
+
 # @app.error_handler(404)
 # def page_not_found(e):
 #     return render_template('404.html')
